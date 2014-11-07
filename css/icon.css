@@ -1,0 +1,9 @@
+ul li.home-icon:before {
+    font-size: 2em;
+    content: '\f015';
+}
+
+ul li.contact-icon:before {
+    font-size: 2em;
+    content: '\f095';
+}
