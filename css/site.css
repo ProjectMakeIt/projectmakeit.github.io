@@ -42,7 +42,7 @@ body {
 }
 
 #wrapper {
-	min-height:100%; /* Relatively the full height of the entire body! */
+	min-height: 100vh; /* Relatively the full height of the entire body! */
 	position:relative;
 }
 
