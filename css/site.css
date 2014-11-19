@@ -46,6 +46,92 @@ body {
 	position:relative;
 }
 
+
+.logo-text {
+    font-family: 'Candela Book', sans-serif;
+}
+.logo-text strong {
+    font-family: 'Candela Bold', 'VAG Rounded', sans-serif;
+    font-size: 110%;
+}
+
+
+.red {
+    color: #EE114F;
+    color: rgb(238, 17, 79);
+    color: hsl(343, 87%, 50%);
+}
+.green {
+    color: #80CC28;
+    color: rgb(128,204,40);
+    color: hsl(88,67%,48%);
+}
+.blue {
+    color: #66CACC;
+    color: rgb(102,202,204);
+    color: hsl(181,50%,60%);
+}
+.red.desat-bg {
+    background-color: #878787;
+    background-color: rgb(135, 135, 135);
+    background-color: hsl(343, 0%, 53%);
+}
+.green.desat-bg {
+    background-color: #7A7A7A;
+    background-color: rgb(127,127,127);
+    background-color: hsl(88,0%,48%);
+}
+.blue.desat-bg {
+    background-color: #999999;
+    background-color: rgb(153,153,153);
+    background-color: hsl(181,0%,60%);
+}
+nav a {
+    -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+nav a:hover {
+    color: black;
+}
+nav .red:hover {
+    background-color: #EE114F;
+    background-color: rgb(238, 17, 79);
+    background-color: hsl(343, 87%, 50%);
+}
+nav .green:hover {
+    background-color: #80CC28;
+    background-color: rgb(128,204,40);
+    background-color: hsl(88,67%,48%);
+}
+nav .blue:hover {
+    background-color: #66CACC;
+    background-color: rgb(102,202,204);
+    background-color: hsl(181,50%,60%);
+}
+
+.red-bg {
+    background-color: #EE114F;
+    background-color: rgb(238, 17, 79);
+    background-color: hsl(343, 87%, 50%);
+    color: #EEE;
+}
+.green-bg {
+    background-color: #80CC28;
+    background-color: rgb(128, 204, 40);
+    background-color: hsl(88, 67%, 48%);
+    color: #EDEDED;
+}
+.blue-bg {
+    background-color: #66CACC;
+    background-color: rgb(102, 202, 204);
+    background-color: hsl(181, 50%, 60%);
+    color: black;
+}
+
+
 header {
     height: 2.5em;
     display: -webkit-box;
@@ -63,13 +149,6 @@ header h1 {
     margin: 0.1em 1em 0;
     font-weight: normal;
 }
-.logo-text {
-    font-family: 'Candela Book', sans-serif;
-}
-.logo-text strong {
-    font-family: 'Candela Bold', sans-serif;
-    font-size: 110%;
-}
 header nav {
     height: 100%;
     margin: 0 1em 0 0;
@@ -86,16 +165,10 @@ header ul {
     justify-content: flex-end;
     align-items: stretch;
 }
-header li {
-    padding: 0 0.4em;
-    list-style: none;
-    text-indent: 0;
-    text-shadow: #333 1px 1px 0;
-}
 header a {
     border-left: 1px solid #000;
     height: 100%;
-    width: 100%;
+    padding: 0 0.4em;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -108,6 +181,12 @@ header a {
 header a:hover {
     color: #111;
     text-shadow: none;
+}
+header li {
+    padding: 0;
+    list-style: none;
+    text-indent: 0;
+    text-shadow: #333 1px 1px 0;
 }
 
 
@@ -275,41 +354,23 @@ footer strong {
     justify-content:center;
 }
 #pitch p {
+    margin: 0;
     font-size: 3em;
     line-height: 1;
     text-indent: 0;
-    margin: 0;
+    color: #EDEDED;
+    text-shadow: rgb(7, 7, 7) 0px -1px 3px, rgb(7, 7, 7) 0px 1px 3px;
 }
 #pitch u {
     text-decoration: none;
     border-bottom: 2px solid;
 }
 
-.fa {
+#pitch .fa {
     color: black;
     text-shadow: none;
 }
-.white {
-    color: white;
-}
 
-.logo-red-background {
-    background-color: #CD5C5C;
-    background-color: hsl(343, 87%, 50%);
-    color: #EEE;
-}
-.logo-green-background {
-    background-color: #80CC28;
-    background-color: rgb(128,204,40);
-    background-color: hsl(88,67%,48%);
-    color: #EDEDED;
-}
-.logo-blue-background {
-    background-color: #66CACC;
-    background-color: rgb(102,202,204);
-    background-color: hsl(181,50%,60%);
-    color: black;
-}
 #headline {
     flex-direction: column;
 }
@@ -625,26 +686,6 @@ footer strong {
     margin: 0.8em 0 0 -0.2em;
     color: #EEE;
 }
-.logo-red {
-    color: #EE114F;
-    color: rgb(238, 17, 79);
-    color: hsl(343, 87%, 50%);
-}
-#action strong {
-    font-family: 'Candela Bold', 'VAG Rounded', sans-serif;
-    font-size: 110%;
-}
-.logo-green {
-    color: #80CC28;
-    color: rgb(128,204,40);
-    color: hsl(88,67%,48%);
-}
-.logo-blue {
-    color: #66CACC;
-    color: rgb(102,202,204);
-    color: hsl(181,50%,60%);
-}
-
 #nameplate #tagline {
     border-top: 1px solid #AAA;
     min-width: 33%;
@@ -729,13 +770,13 @@ footer strong {
 #action #links li {
     list-style: none;
 }
-.logo-red-bg-hover {
+#action #links .logo-red-bg-hover {
     background-color: #999999;
     background-color: rgb(153, 153, 153);
     background-color: hsl(343, 0%, 55%);
     /*background-image: linear-gradient(hsla(343, 1%, 13%, 0.8),hsl(343, 1%, 55%));*/
 }
-.logo-red-bg-hover a {
+#action #links .logo-red-bg-hover a {
     color: #EE114F;
     color: rgb(238, 17, 79);
     color: hsl(343, 87%, 50%);
@@ -747,13 +788,13 @@ footer strong {
     background-image: none;
     text-shadow: none;
 }
-.logo-green-bg-hover {
+#action #links .logo-green-bg-hover {
     background-color: #7A7A7A;
     background-color: rgb(127,127,127);
     background-color: hsl(88,0%,48%);
     /*background-image: linear-gradient(hsla(88, 1%, 13%, 0.8),hsl(88, 1%, 48%));*/
 }
-.logo-green-bg-hover a {
+#action #links .logo-green-bg-hover a {
     color: #80CC28;
     color: rgb(128,204,40);
     color: hsl(88,67%,48%);
@@ -779,13 +820,13 @@ footer strong {
 #action #links .lower {
     justify-content: flex-start;
 }
-.logo-blue-bg-hover {
+#action #links .logo-blue-bg-hover {
     background-color: #999999;
     background-color: rgb(153,153,153);
     background-color: hsl(181,0%,60%);
     /*background-image: linear-gradient(hsla(181, 1%, 13%, 0.8),hsl(181, 1%, 60%));*/
 }
-.logo-blue-bg-hover a {
+#action #links .logo-blue-bg-hover a {
     color: #66CACC;
     color: rgb(102,202,204);
     color: hsl(181,50%,60%);
@@ -816,7 +857,7 @@ footer strong {
     background-image:
         linear-gradient(
             to right, 
-            hsla(343, 0%, 55%, 0.85),
+            hsla(343, 0%, 53%, 0.85),
             hsla( 88, 0%, 48%, 0.85), 
             hsla(181, 0%, 60%, 0.85)
         );
