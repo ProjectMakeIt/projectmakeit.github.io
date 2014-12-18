@@ -17,7 +17,7 @@
 			<div id="headline" class="red-bg">
 				<p>You have <u>something</u>.</p>
 				<div id="somethings">
-					<i class="fa fa-bullhorn somethingsSequence1"></i>&nbsp;<i class="fa fa-gift somethingsSequence2"></i>&nbsp;<i class="fa fa-barcode somethingsSequence3"></i>&nbsp;<i class="fa fa-ticket somethingsSequence4"></i>&nbsp;<i class="fa fa-book somethingsSequence5"></i>
+					<i class="fa fa-bullhorn somethingsSequence1"></i>&nbsp;<i class="fa fa-gift somethingsSequence2"></i>&nbsp;<i class="fa fa-barcode somethingsSequence3"></i>&nbsp;<i class="fa fa-ticket somethingsSequence2"></i>&nbsp;<i class="fa fa-book somethingsSequence1"></i>
 				</div>
 			</div>
 			<div id="see-do" class="green-bg">
@@ -31,12 +31,14 @@
 				<div id="do">
 					<p>...and take action.</p>
 					<div>
-						<i class="fa fa-female fa-2x"></i><i class="fa fa-long-arrow-right wow stretchRight"></i> 
-						<i class="fa fa-comments-o"></i>
-						<i class="fa fa-thumbs-up"></i> 
-						<i class="fa fa-shopping-cart"></i> 
-						<i class="fa fa-share-alt-square"></i> 
-						<i class="fa fa-star-half-o"></i> 
+						<i class="fa fa-female fa-2x"></i><i class="fa fa-long-arrow-right wow stretchRight"></i>
+						<span class="icon-cycle">
+							<i class="pentacycle1 fa fa-comments-o"></i>
+							<i class="pentacycle2 fa fa-thumbs-up"></i>
+							<i class="pentacycle3 fa fa-shopping-cart"></i>
+							<i class="pentacycle4 fa fa-share-alt-square"></i>
+							<i class="pentacycle5 fa fa-star-half-o"></i>
+						</span>
 					</div>
 				</div>
 			</div>
@@ -71,28 +73,34 @@
 			<div id="nameplate">
 				<div id="logo">
 					<img src="img/PMI_v07_medium.png" width="98px" height="131" class="logo-image" alt="Project Make It logo"/>
-					<h1> Project <strong>Make It</strong></h1>
+					<h1 class="logo-text"> Project <strong>Make It</strong></h1>
 				</div>
 				<div id="tagline">
-					<h2>Modern. Simple. Done.</h2>
+					<h2>
+						<span>Modern.</span> <span>Simple.</span> <span>Done.</span>
+					</h2>
 				</div>
 			</div>
 			<nav id="links">
 				<ul>
 					<div>
-						<a href="/about.html" class="red bg-on"><li>Who we are</li></a>
-					</div>
-					<div>
-						<a href="/showcase.html" class="green bg-on"><li>What we do</li></a>
-					</div>
-					<div>
-						<a href="mailto:contact@projectmakeit.com" target="_new" class="blue bg-on split upper">
-							<span>Contact&commat;ProjectMakeIt&period;com</span>
-							<li>Email us</li>
+						<a href="/about.html" class="red bg-on">
+							<li><span>Who</span> <span>we</span> <span>are</span></li>
 						</a>
-						<a href="tel:+19189287644" id="telephone" class="blue bg-on split lower">
-							<li>Call us</li>
-							<span>1 &lpar;918&rpar; 928-7644</span>
+					</div>
+					<div>
+						<a href="/showcase.html" class="green bg-on">
+							<li><span>What</span> <span>we</span> <span>do</span></li>
+						</a>
+					</div>
+					<div id="contact">
+						<a href="tel:+19189287644" id="telephone" class="blue bg-on split upper">
+							<li><span>Call</span> <span>us</span></li>
+							<label><span>1 &lpar;918&rpar;</span> <span>928&dash;7644</span></label>
+						</a>
+						<a href="mailto:%20contact@projectmakeit.com?subject=Pleased%20to%20" target="_new" class="blue bg-on split lower">
+							<li><span>Email</span> <span>us</span></li>
+							<label><span>Contact&commat;</span><wbr/><span>ProjectMakeIt</span><span>&period;com</span></label>
 						</a>
 					</div>
 				</ul>
