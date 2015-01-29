@@ -22,9 +22,6 @@
 
 
 
-html {
-    /* height: 100%;    /* Mysteriously needed for "and stay down" footer. */
-}
 body {
     background-color: #111;
     color: #EFEFFE;
@@ -36,14 +33,6 @@ body {
     flex-flow: column;
     align-items: center;
     font-family: 'Ubuntu Condensed', sans-serif;
-    padding: 0;
-    margin: 0;
-    height: 100%; /* Footer stay down */
-}
-
-#wrapper {
-	min-height:100%; /* Relatively the full height of the entire body! */
-	position:relative;
 }
 
 header {
@@ -198,29 +187,6 @@ p {
 
 
 
-footer {
-	position:absolute;
-	bottom:0;
-	left:0;
-	width:100%;
-	height:30px;
-	padding: 10px 0 5px;
-    background: #222;
-    font-family: 'Candela Book', sans-serif;
-    font-size: 90%;
-    color: #EFEFFE;
-    text-indent: 1em;
-}
-footer a {
-    font-family: 'Candela Book', sans-serif;
-    font-size: 110%;
-    text-decoration: none;
-    margin-left: 4px;
-}
-footer strong {
-    font-family: 'Candela Bold', sans-serif;
-    font-size: large;
-}
 
 
 
@@ -611,24 +577,9 @@ footer strong {
     margin: 0.8em 0 0 -0.2em;
     color: #EEE;
 }
-.logo-red {
-    color: #EE114F;
-    color: rgb(238, 17, 79);
-    color: hsl(343, 87%, 50%);
-}
 #action strong {
     font-family: 'Candela Bold', 'VAG Rounded', sans-serif;
     font-size: 110%;
-}
-.logo-green {
-    color: #80CC28;
-    color: rgb(128,204,40);
-    color: hsl(88,67%,48%);
-}
-.logo-blue {
-    color: #66CACC;
-    color: rgb(102,202,204);
-    color: hsl(181,50%,60%);
 }
 
 #nameplate #tagline {
