@@ -240,6 +240,8 @@ p {
 }
 
 
+
+
 #headline {
     flex-direction: column;
 }
@@ -333,53 +335,6 @@ p {
   100% { opacity: 1; }
 }
 
-.somethingsSequence4 {
-    -webkit-animation: somethingsSequence4 2s;
-       -moz-animation: somethingsSequence4 2s;
-        -ms-animation: somethingsSequence4 2s;
-         -o-animation: somethingsSequence4 2s;
-            animation: somethingsSequence4 2s;
-}
-@-webkit-keyframes somethingsSequence4 {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
-}
-@-moz-keyframes somethingsSequence4 {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
-}
-@-o-keyframes somethingsSequence4 {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
-}
-@keyframes somethingsSequence4 {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-.somethingsSequence5 {
-    -webkit-animation: somethingsSequence5 2s;
-       -moz-animation: somethingsSequence5 2s;
-        -ms-animation: somethingsSequence5 2s;
-         -o-animation: somethingsSequence5 2s;
-            animation: somethingsSequence5 2s;
-}
-@-webkit-keyframes somethingsSequence5 {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
-}
-@-moz-keyframes somethingsSequence5 {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
-}
-@-o-keyframes somethingsSequence5 {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
-}
-@keyframes somethingsSequence5 {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
-}
 
 
 
@@ -484,6 +439,9 @@ p {
     font-size: 3em;
 }
 
+
+
+
 #consult {
     display: -webkit-box;
     display: -moz-box;
@@ -497,6 +455,9 @@ p {
 #consult i {
     color: white;
 }
+
+
+
 
 #close {
     flex-direction: column;
@@ -513,6 +474,11 @@ p {
     color: white;
     text-shadow: rgb(7, 7, 7) 0px -1px 3px, rgb(7, 7, 7) 0px 1px 3px;
 }
+
+
+
+
+
 
 #action {
 	width: 100%;
