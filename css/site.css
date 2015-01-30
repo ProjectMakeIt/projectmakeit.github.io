@@ -238,62 +238,77 @@ p {
     background-color: hsl(181,50%,60%);
     color: black;
 }
+
+
 #headline {
     flex-direction: column;
 }
 #headline p {
     margin-bottom: 1.25em;
 }
+
+
 #headline #somethings {
     font-size: 3em;
     word-spacing: 1em;
 }
+
 .somethingsSequence1 {
-    -webkit-animation: somethingsSequence1 2s 1s;
-       -moz-animation: somethingsSequence1 2s 1s;
-        -ms-animation: somethingsSequence1 2s 1s;
-         -o-animation: somethingsSequence1 2s 1s;
-            animation: somethingsSequence1 2s 1s;
+    -webkit-animation: somethingsSequence1 2s;
+       -moz-animation: somethingsSequence1 2s;
+        -ms-animation: somethingsSequence1 2s;
+         -o-animation: somethingsSequence1 2s;
+            animation: somethingsSequence1 2s;
 }
 @-webkit-keyframes somethingsSequence1 {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
+    0%   { opacity: 0; }
+    50%  { opacity: 0; }
+    100% { opacity: 1; }
 }
 @-moz-keyframes somethingsSequence1 {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
+    0%   { opacity: 0; }
+    50%  { opacity: 0; }
+    100% { opacity: 1; }
 }
 @-o-keyframes somethingsSequence1 {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
+    0%   { opacity: 0; }
+    50%  { opacity: 0; }
+    100% { opacity: 1; }
 }
 @keyframes somethingsSequence1 {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
+    0%   { opacity: 0; }
+    50%  { opacity: 0; }
+    100% { opacity: 1; }
 }
+
 .somethingsSequence2 {
-    -webkit-animation: somethingsSequence2 2s 0.5s;
-       -moz-animation: somethingsSequence2 2s 0.5s;
-        -ms-animation: somethingsSequence2 2s 0.5s;
-         -o-animation: somethingsSequence2 2s 0.5s;
-            animation: somethingsSequence2 2s 0.5s;
+    -webkit-animation: somethingsSequence2 2s;
+       -moz-animation: somethingsSequence2 2s;
+        -ms-animation: somethingsSequence2 2s;
+         -o-animation: somethingsSequence2 2s;
+            animation: somethingsSequence2 2s;
 }
 @-webkit-keyframes somethingsSequence2 {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
+    0%   { opacity: 0; }
+    25%  { opacity: 0; }
+    100% { opacity: 1; }
 }
 @-moz-keyframes somethingsSequence2 {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
+    0%   { opacity: 0; }
+    25%  { opacity: 0; }
+    100% { opacity: 1; }
 }
 @-o-keyframes somethingsSequence2 {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
+    0%   { opacity: 0; }
+    25%  { opacity: 0; }
+    100% { opacity: 1; }
 }
 @keyframes somethingsSequence2 {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
+    0%   { opacity: 0; }
+    25%  { opacity: 0; }
+    100% { opacity: 1; }
 }
+
 .somethingsSequence3 {
     -webkit-animation: somethingsSequence3 2s;
        -moz-animation: somethingsSequence3 2s;
@@ -317,12 +332,13 @@ p {
   0%   { opacity: 0; }
   100% { opacity: 1; }
 }
+
 .somethingsSequence4 {
-    -webkit-animation: somethingsSequence4 2s 0.5s;
-       -moz-animation: somethingsSequence4 2s 0.5s;
-        -ms-animation: somethingsSequence4 2s 0.5s;
-         -o-animation: somethingsSequence4 2s 0.5s;
-            animation: somethingsSequence4 2s 0.5s;
+    -webkit-animation: somethingsSequence4 2s;
+       -moz-animation: somethingsSequence4 2s;
+        -ms-animation: somethingsSequence4 2s;
+         -o-animation: somethingsSequence4 2s;
+            animation: somethingsSequence4 2s;
 }
 @-webkit-keyframes somethingsSequence4 {
   0%   { opacity: 0; }
@@ -340,12 +356,13 @@ p {
   0%   { opacity: 0; }
   100% { opacity: 1; }
 }
+
 .somethingsSequence5 {
-    -webkit-animation: somethingsSequence5 2s 1s;
-       -moz-animation: somethingsSequence5 2s 1s;
-        -ms-animation: somethingsSequence5 2s 1s;
-         -o-animation: somethingsSequence5 2s 1s;
-            animation: somethingsSequence5 2s 1s;
+    -webkit-animation: somethingsSequence5 2s;
+       -moz-animation: somethingsSequence5 2s;
+        -ms-animation: somethingsSequence5 2s;
+         -o-animation: somethingsSequence5 2s;
+            animation: somethingsSequence5 2s;
 }
 @-webkit-keyframes somethingsSequence5 {
   0%   { opacity: 0; }
@@ -363,6 +380,8 @@ p {
   0%   { opacity: 0; }
   100% { opacity: 1; }
 }
+
+
 
 #see-do {
     display: -webkit-box;
