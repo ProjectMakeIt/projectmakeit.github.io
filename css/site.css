@@ -349,56 +349,52 @@ p {
     justify-content: center;
 }
 #see-do>div {
-    width: 33.3%;
+    width: 45%;
+}
+#see-do>div>div {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+}
+#see-do p {
+    margin-bottom: 0.5em;
+}
+#see-do i {
+    margin: 0 0.1em;
 }
 
-.stretchRight{
-    -webkit-animation-name: stretchRight;
-    -moz-animation-name: stretchRight;
-    -o-animation-name: stretchRight;
-    animation-name: stretchRight;
 
-	-webkit-animation-duration: 1.5s;
-	-moz-animation-duration: 1.5s;
-	-o-animation-duration: 1.5s;
-	animation-duration: 1.5s;
-
-	-webkit-animation-timing-function: ease-out;
-	-moz-animation-timing-function: ease-out;
-	-o-animation-timing-function: ease-out;
-	animation-timing-function: ease-out;
-
-	-webkit-transform-origin: 0% 0%; 		
-	transform-origin: 0% 0%;
-	-ms-transform-origin: 0% 0%;
+#see-do #see {
+    /*margin-bottom: 15vh;*/
 }
 
-@keyframes stretchRight {
-	0% {
-		transform: scaleX(0.3);
-	}
-	40% {
-		transform: scaleX(1.02);
-	}
-	60% {
-		transform: scaleX(0.98);
-	}
-	80% {
-		transform: scaleX(1.01);
-	}
-	100% {
-		transform: scaleX(0.98);
-	}				
-	80% {
-		transform: scaleX(1.01);
-	}
-	100% {
-		transform: scaleX(1);
-	}							
+#see-do #see picture {
+    display: inline-block;
+}
+
+
+#see-do>i {
+    margin: auto 0.25em auto 0.1em;
+    font-size: 5em;
+    color: green;
+}
+
+
+#see-do #do {
+    /*margin-top: 40vh;*/
 }
 
 @-webkit-keyframes stretchRight {
 	0% {
+		-webkit-transform: scaleX(0);
+	}
+	30% {
 		-webkit-transform: scaleX(0.3);
 	}
 	40% {
@@ -420,24 +416,511 @@ p {
 		-webkit-transform: scaleX(1);
 	}		
 }
+@keyframes stretchRight {
+	0% {
+		transform: scaleX(0);
+	}
+	30% {
+		transform: scaleX(0.3);
+	}
+	40% {
+		transform: scaleX(1.02);
+	}
+	60% {
+		transform: scaleX(0.98);
+	}
+	80% {
+		transform: scaleX(1.01);
+	}
+	100% {
+		transform: scaleX(0.98);
+	}				
+	80% {
+		transform: scaleX(1.01);
+	}
+	100% {
+		transform: scaleX(1);
+	}							
+}
+.stretchRight{
+    -webkit-animation-name: stretchRight;
+    -moz-animation-name: stretchRight;
+    -o-animation-name: stretchRight;
+    animation-name: stretchRight;
 
-#see-do #do {
-    margin-top: 10em;
-    width: auto;
+	-webkit-animation-duration: 2.5s;
+	-moz-animation-duration: 2.5s;
+	-o-animation-duration: 2.5s;
+	animation-duration: 2.5s;
+
+    -webkit-animation-delay: 2000ms;
+    -moz-animation-delay: 2000ms;
+    -o-animation-delay: 2000ms;
+    animation-delay: 2000ms;
+
+	-webkit-animation-timing-function: cubic-bezier(1,0,.47,.71);
+	-moz-animation-timing-function: cubic-bezier(1,0,.47,.71);
+	-o-animation-timing-function: cubic-bezier(1,0,.47,.71);
+	animation-timing-function: cubic-bezier(1,0,.47,.71);
+
+	-webkit-transform-origin: 0% 0%; 		
+	transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
 }
-#see-do p {
-    margin-bottom: 0.5em;
+
+
+#see-do .fiveFrames i:before {
+    font-size: 1.5em;
 }
-#see-do picture {
+.fiveFrames {
     display: inline-block;
-    margin-bottom: 2em;
+    width: 1.25em;
+    -webkit-animation: fiveFrames 2000ms 1;
+       -moz-animation: fiveFrames 2000ms 1;
+        -ms-animation: fiveFrames 2000ms 1;
+         -o-animation: fiveFrames 2000ms 1;
+            animation: fiveFrames 2000ms 1;
 }
-#see-do i {
-    margin: auto 0.1em;
+@-webkit-keyframes fiveFrames {
+    0%    {
+            opacity: 0;
+    }
+    81%   {
+            opacity: 0;
+    }
+    100%  {
+            opacity: 1;
+    }
 }
-#see-do #do>div {
-    font-size: 3em;
+@-moz-keyframes fiveFrames {
+    0%    {
+            opacity: 0;
+    }
+    99%   {
+            opacity: 0;
+    }
+    100%  {
+            opacity: 1;
+    }
 }
+@-o-keyframes fiveFrames {
+    0%    {
+            opacity: 0;
+    }
+    99%   {
+            opacity: 0;
+    }
+    100%  {
+            opacity: 1;
+    }
+}
+@keyframes fiveFrames {
+    0%    {
+            opacity: 0;
+    }
+    99%   {
+            opacity: 0;
+    }
+    100%  {
+            opacity: 1;
+    }
+}
+
+.fiveFrame1, .fiveFrame2, .fiveFrame3, .fiveFrame4, .fiveFrame5 {
+    float: left;
+}
+.fiveFrame1 {
+    -webkit-animation: fiveFrame1 8001ms infinite;
+       -moz-animation: fiveFrame1 8001ms infinite;
+        -ms-animation: fiveFrame1 8001ms infinite;
+         -o-animation: fiveFrame1 8001ms infinite;
+            animation: fiveFrame1 8001ms infinite;
+}
+@-webkit-keyframes fiveFrame1 {
+    0%    {
+            font-size: inherit;
+    }
+    20%   {
+            font-size: inherit;
+    }
+    21%   {
+            font-size: 0em;
+    }
+    100%  {
+            font-size: 0em;
+    }
+}
+@-moz-keyframes fiveFrame1 {
+    0%    {
+            font-size: inherit;
+    }
+    20%   {
+            font-size: inherit;
+    }
+    21%   {
+            font-size: 0em;
+    }
+    100%  {
+            font-size: 0em;
+    }
+}
+@-o-keyframes fiveFrame1 {
+    0%    {
+            font-size: inherit;
+    }
+    20%   {
+            font-size: inherit;
+    }
+    21%   {
+            font-size: 0em;
+    }
+    100%  {
+            font-size: 0em;
+    }
+}
+@keyframes fiveFrame1 {
+    0%    {
+            font-size: inherit;
+    }
+    20%   {
+            font-size: inherit;
+    }
+    21%   {
+            font-size: 0em;
+    }
+    100%  {
+            font-size: 0em;
+    }
+}
+
+.fiveFrame2 {
+    -webkit-animation: fiveFrame2 8001ms infinite;
+       -moz-animation: fiveFrame2 8001ms infinite;
+        -ms-animation: fiveFrame2 8001ms infinite;
+         -o-animation: fiveFrame2 8001ms infinite;
+            animation: fiveFrame2 8001ms infinite;
+}
+@-webkit-keyframes fiveFrame2 {
+    0%    {
+            font-size: 0em;
+    }
+    20%   {
+            font-size: 0em;
+    }
+    21%   {
+            font-size: inherit;
+    }
+    40%   {
+            font-size: inherit;
+    }
+    41%   {
+            font-size: 0em;
+        }
+    100%  {
+            font-size: 0em;
+    }
+}
+@-moz-keyframes fiveFrame2 {
+    0%    {
+            font-size: 0em;
+    }
+    20%   {
+            font-size: 0em;
+    }
+    21%   {
+            font-size: inherit;
+    }
+    40%   {
+            font-size: inherit;
+    }
+    41%   {
+            font-size: 0em;
+        }
+    100%  {
+            font-size: 0em;
+    }
+}
+@-o-keyframes fiveFrame2 {
+    0%    {
+            font-size: 0em;
+    }
+    20%   {
+            font-size: 0em;
+    }
+    21%   {
+            font-size: inherit;
+    }
+    40%   {
+            font-size: inherit;
+    }
+    41%   {
+            font-size: 0em;
+        }
+    100%  {
+            font-size: 0em;
+    }
+}
+@keyframes fiveFrame2 {
+    0%    {
+            font-size: 0em;
+    }
+    20%   {
+            font-size: 0em;
+    }
+    21%   {
+            font-size: inherit;
+    }
+    40%   {
+            font-size: inherit;
+    }
+    41%   {
+            font-size: 0em;
+        }
+    100%  {
+            font-size: 0em;
+    }
+}
+
+.fiveFrame3 {
+    -webkit-animation: fiveFrame3 8001ms infinite;
+       -moz-animation: fiveFrame3 8001ms infinite;
+        -ms-animation: fiveFrame3 8001ms infinite;
+         -o-animation: fiveFrame3 8001ms infinite;
+            animation: fiveFrame3 8001ms infinite;
+}
+@-webkit-keyframes fiveFrame3 {
+    0%    {
+            font-size: 0em;
+    }
+    40%   {
+            font-size: 0em;
+    }
+    41%   {
+            font-size: inherit;
+    }
+    60%   {
+            font-size: inherit;
+    }
+    61%   {
+            font-size: 0em;
+    }
+    100%  {
+            font-size: 0em;
+    }
+}
+@-moz-keyframes fiveFrame3 {
+    0%    {
+            font-size: 0em;
+    }
+    40%   {
+            font-size: 0em;
+    }
+    41%   {
+            font-size: inherit;
+    }
+    60%   {
+            font-size: inherit;
+    }
+    61%   {
+            font-size: 0em;
+    }
+    100%  {
+            font-size: 0em;
+    }
+}
+@-o-keyframes fiveFrame3 {
+    0%    {
+            font-size: 0em;
+    }
+    40%   {
+            font-size: 0em;
+    }
+    41%   {
+            font-size: inherit;
+    }
+    60%   {
+            font-size: inherit;
+    }
+    61%   {
+            font-size: 0em;
+    }
+    100%  {
+            font-size: 0em;
+    }
+}
+@keyframes fiveFrame3 {
+    0%    {
+            font-size: 0em;
+    }
+    40%   {
+            font-size: 0em;
+    }
+    41%   {
+            font-size: inherit;
+    }
+    60%   {
+            font-size: inherit;
+    }
+    61%   {
+            font-size: 0em;
+    }
+    100%  {
+            font-size: 0em;
+    }
+}
+
+.fiveFrame4 {
+    -webkit-animation: fiveFrame4 8001ms infinite;
+       -moz-animation: fiveFrame4 8001ms infinite;
+        -ms-animation: fiveFrame4 8001ms infinite;
+         -o-animation: fiveFrame4 8001ms infinite;
+            animation: fiveFrame4 8001ms infinite;
+}
+@-webkit-keyframes fiveFrame4 {
+    0%    {
+            font-size: 0em;
+    }
+    60%   {
+            font-size: 0em;
+        }
+    61%   {
+            font-size: inherit;
+    }
+    80%   {
+            font-size: inherit;
+    }
+    81%   {
+            font-size: 0em;
+    }
+    100%  {
+            font-size: 0em;
+    }
+}
+@-moz-keyframes fiveFrame4 {
+    0%    {
+            font-size: 0em;
+    }
+    60%   {
+            font-size: 0em;
+        }
+    61%   {
+            font-size: inherit;
+    }
+    80%   {
+            font-size: inherit;
+    }
+    81%   {
+            font-size: 0em;
+    }
+    100%  {
+            font-size: 0em;
+    }
+}
+@-o-keyframes fiveFrame4 {
+    0%    {
+            font-size: 0em;
+    }
+    60%   {
+            font-size: 0em;
+        }
+    61%   {
+            font-size: inherit;
+    }
+    80%   {
+            font-size: inherit;
+    }
+    81%   {
+            font-size: 0em;
+    }
+    100%  {
+            font-size: 0em;
+    }
+}
+@keyframes fiveFrame4 {
+    0%    {
+            font-size: 0em;
+    }
+    60%   {
+            font-size: 0em;
+        }
+    61%   {
+            font-size: inherit;
+    }
+    80%   {
+            font-size: inherit;
+    }
+    81%   {
+            font-size: 0em;
+    }
+    100%  {
+            font-size: 0em;
+    }
+}
+
+.fiveFrame5 {
+    -webkit-animation: fiveFrame5 8001ms infinite;
+       -moz-animation: fiveFrame5 8001ms infinite;
+        -ms-animation: fiveFrame5 8001ms infinite;
+         -o-animation: fiveFrame5 8001ms infinite;
+            animation: fiveFrame5 8001ms infinite;
+}
+@-webkit-keyframes fiveFrame5 {
+    0%    {
+            font-size: 0em;
+    }
+    80%   {
+            font-size: 0em;
+    }
+    81%   {
+            font-size: inherit;
+    }
+    100%   {
+            font-size: inherit;
+    }
+}
+@-moz-keyframes fiveFrame5 {
+    0%    {
+            font-size: 0em;
+    }
+    80%   {
+            font-size: 0em;
+    }
+    81%   {
+            font-size: inherit;
+    }
+    100%   {
+            font-size: inherit;
+    }
+}
+@-o-keyframes fiveFrame5 {
+    0%    {
+            font-size: 0em;
+    }
+    80%   {
+            font-size: 0em;
+    }
+    81%   {
+            font-size: inherit;
+    }
+    100%   {
+            font-size: inherit;
+    }
+}
+@keyframes fiveFrame5 {
+    0%    {
+            font-size: 0em;
+    }
+    80%   {
+            font-size: 0em;
+    }
+    81%   {
+            font-size: inherit;
+    }
+    100%   {
+            font-size: inherit;
+    }
+}
+
 
 
 

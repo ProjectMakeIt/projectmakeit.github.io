@@ -1163,6 +1163,48 @@ Copyright (c) 2014 Daniel Eden
           animation-name: fadeInLeft;
 }
 
+@-webkit-keyframes fadeInLeftDelayed {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+@keyframes fadeInLeftDelayed {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+.fadeInLeftDelayed {
+    -webkit-animation-name: fadeInLeftDelayed;
+       -moz-animation-name: fadeInLeftDelayed;
+         -o-animation-name: fadeInLeftDelayed;
+            animation-name: fadeInLeftDelayed;
+
+    -webkit-animation-duration: 2.5s;
+       -moz-animation-duration: 2.5s;
+         -o-animation-duration: 2.5s;
+            animation-duration: 2.5s;
+}
+
 @-webkit-keyframes fadeInLeftBig {
   0% {
     opacity: 0;
