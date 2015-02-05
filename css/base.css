@@ -834,19 +834,12 @@ footer strong {
         color: white;
     }
     
-    #dashboard-table {
-        box-shadow: 0px 2px #559;
-    }
     footer .logo-red, footer .logo-green, footer .logo-blue {
         color: #DFDFF0;
         text-shadow: none;
     }
     footer a:hover, footer a:hover span {
         color: white;
-    }
-    
-    #dashboard-table {
-        box-shadow: 0px 2px #559;
     }
 
 }
