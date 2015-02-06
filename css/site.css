@@ -518,58 +518,86 @@ p {
 
 @-webkit-keyframes fiveFrame1 {
     0%    {
+            font-size: 0em;
+            opacity: 0;
+    }
+    0.1%    {
             font-size: inherit;
     }
     20%   {
             font-size: inherit;
+            opacity: 1;
     }
-    21%   {
+    20.1%   {
             font-size: 0em;
+            opacity: 0;
     }
     100%  {
             font-size: 0em;
+            opacity: 0;
     }
 }
 @-moz-keyframes fiveFrame1 {
     0%    {
+            font-size: 0em;
+            opacity: 0;
+    }
+    0.1%    {
             font-size: inherit;
     }
     20%   {
             font-size: inherit;
+            opacity: 1;
     }
-    21%   {
+    20.1%   {
             font-size: 0em;
+            opacity: 0;
     }
     100%  {
             font-size: 0em;
+            opacity: 0;
     }
 }
 @-o-keyframes fiveFrame1 {
     0%    {
+            font-size: 0em;
+            opacity: 0;
+    }
+    0.1%    {
             font-size: inherit;
     }
     20%   {
             font-size: inherit;
+            opacity: 1;
     }
-    21%   {
+    20.1%   {
             font-size: 0em;
+            opacity: 0;
     }
     100%  {
             font-size: 0em;
+            opacity: 0;
     }
 }
 @keyframes fiveFrame1 {
     0%    {
+            font-size: 0em;
+            opacity: 0;
+    }
+    0.1%    {
             font-size: inherit;
     }
     20%   {
             font-size: inherit;
+            opacity: 1;
     }
-    21%   {
+    20.1%   {
             font-size: 0em;
+            opacity: 0;
     }
     100%  {
             font-size: 0em;
+            opacity: 0;
     }
 }
 .fiveFrame1 {
@@ -583,81 +611,97 @@ p {
 @-webkit-keyframes fiveFrame2 {
     0%    {
             font-size: 0em;
+            opacity: 0;
     }
     20%   {
             font-size: 0em;
+            opacity: 0;
     }
-    21%   {
+    20.1%   {
             font-size: inherit;
     }
     40%   {
             font-size: inherit;
+            opacity: 1;
     }
-    41%   {
+    40.1%   {
             font-size: 0em;
         }
     100%  {
             font-size: 0em;
+            opacity: 0;
     }
 }
 @-moz-keyframes fiveFrame2 {
     0%    {
             font-size: 0em;
+            opacity: 0;
     }
     20%   {
             font-size: 0em;
+            opacity: 0;
     }
-    21%   {
+    20.1%   {
             font-size: inherit;
     }
     40%   {
             font-size: inherit;
+            opacity: 1;
     }
-    41%   {
+    40.1%   {
             font-size: 0em;
         }
     100%  {
             font-size: 0em;
+            opacity: 0;
     }
 }
 @-o-keyframes fiveFrame2 {
     0%    {
             font-size: 0em;
+            opacity: 0;
     }
     20%   {
             font-size: 0em;
+            opacity: 0;
     }
-    21%   {
+    20.1%   {
             font-size: inherit;
     }
     40%   {
             font-size: inherit;
+            opacity: 1;
     }
-    41%   {
+    40.1%   {
             font-size: 0em;
         }
     100%  {
             font-size: 0em;
+            opacity: 0;
     }
 }
 @keyframes fiveFrame2 {
     0%    {
             font-size: 0em;
+            opacity: 0;
     }
     20%   {
             font-size: 0em;
+            opacity: 0;
     }
-    21%   {
+    20.1%   {
             font-size: inherit;
     }
     40%   {
             font-size: inherit;
+            opacity: 1;
     }
-    41%   {
+    40.1%   {
             font-size: 0em;
         }
     100%  {
             font-size: 0em;
+            opacity: 0;
     }
 }
 .fiveFrame2 {
@@ -671,81 +715,101 @@ p {
 @-webkit-keyframes fiveFrame3 {
     0%    {
             font-size: 0em;
+            opacity: 0;
     }
     40%   {
             font-size: 0em;
+            opacity: 0;
     }
-    41%   {
+    40.1%   {
             font-size: inherit;
     }
     60%   {
             font-size: inherit;
+            opacity: 1;
     }
-    61%   {
+    60.1%   {
             font-size: 0em;
+            opacity: 0;
     }
     100%  {
             font-size: 0em;
+            opacity: 0;
     }
 }
 @-moz-keyframes fiveFrame3 {
     0%    {
             font-size: 0em;
+            opacity: 0;
     }
     40%   {
             font-size: 0em;
+            opacity: 0;
     }
-    41%   {
+    40.1%   {
             font-size: inherit;
     }
     60%   {
             font-size: inherit;
+            opacity: 1;
     }
-    61%   {
+    60.1%   {
             font-size: 0em;
+            opacity: 0;
     }
     100%  {
             font-size: 0em;
+            opacity: 0;
     }
 }
 @-o-keyframes fiveFrame3 {
     0%    {
             font-size: 0em;
+            opacity: 0;
     }
     40%   {
             font-size: 0em;
+            opacity: 0;
     }
-    41%   {
+    40.1%   {
             font-size: inherit;
     }
     60%   {
             font-size: inherit;
+            opacity: 1;
     }
-    61%   {
+    60.1%   {
             font-size: 0em;
+            opacity: 0;
     }
     100%  {
             font-size: 0em;
+            opacity: 0;
     }
 }
 @keyframes fiveFrame3 {
     0%    {
             font-size: 0em;
+            opacity: 0;
     }
     40%   {
             font-size: 0em;
+            opacity: 0;
     }
-    41%   {
+    40.1%   {
             font-size: inherit;
     }
     60%   {
             font-size: inherit;
+            opacity: 1;
     }
-    61%   {
+    60.1%   {
             font-size: 0em;
+            opacity: 0;
     }
     100%  {
             font-size: 0em;
+            opacity: 0;
     }
 }
 .fiveFrame3 {
@@ -759,81 +823,101 @@ p {
 @-webkit-keyframes fiveFrame4 {
     0%    {
             font-size: 0em;
+            opacity: 0;
     }
     60%   {
             font-size: 0em;
+            opacity: 0;
         }
-    61%   {
+    60.1%   {
             font-size: inherit;
     }
     80%   {
             font-size: inherit;
+            opacity: 1;
     }
-    81%   {
+    80.1%   {
             font-size: 0em;
+            opacity: 0;
     }
     100%  {
             font-size: 0em;
+            opacity: 0;
     }
 }
 @-moz-keyframes fiveFrame4 {
     0%    {
             font-size: 0em;
+            opacity: 0;
     }
     60%   {
             font-size: 0em;
+            opacity: 0;
         }
-    61%   {
+    60.1%   {
             font-size: inherit;
     }
     80%   {
             font-size: inherit;
+            opacity: 1;
     }
-    81%   {
+    80.1%   {
             font-size: 0em;
+            opacity: 0;
     }
     100%  {
             font-size: 0em;
+            opacity: 0;
     }
 }
 @-o-keyframes fiveFrame4 {
     0%    {
             font-size: 0em;
+            opacity: 0;
     }
     60%   {
             font-size: 0em;
+            opacity: 0;
         }
-    61%   {
+    60.1%   {
             font-size: inherit;
     }
     80%   {
             font-size: inherit;
+            opacity: 1;
     }
-    81%   {
+    80.1%   {
             font-size: 0em;
+            opacity: 0;
     }
     100%  {
             font-size: 0em;
+            opacity: 0;
     }
 }
 @keyframes fiveFrame4 {
     0%    {
             font-size: 0em;
+            opacity: 0;
     }
     60%   {
             font-size: 0em;
+            opacity: 0;
         }
-    61%   {
+    60.1%   {
             font-size: inherit;
     }
     80%   {
             font-size: inherit;
+            opacity: 1;
     }
-    81%   {
+    80.1%   {
             font-size: 0em;
+            opacity: 0;
     }
     100%  {
             font-size: 0em;
+            opacity: 0;
     }
 }
 .fiveFrame4 {
@@ -847,57 +931,69 @@ p {
 @-webkit-keyframes fiveFrame5 {
     0%    {
             font-size: 0em;
+            opacity: 0;
     }
     80%   {
             font-size: 0em;
+            opacity: 0;
     }
-    81%   {
+    80.1%   {
             font-size: inherit;
     }
     100%   {
             font-size: inherit;
+            opacity: 1;
     }
 }
 @-moz-keyframes fiveFrame5 {
     0%    {
             font-size: 0em;
+            opacity: 0;
     }
     80%   {
             font-size: 0em;
+            opacity: 0;
     }
-    81%   {
+    80.1%   {
             font-size: inherit;
     }
     100%   {
             font-size: inherit;
+            opacity: 1;
     }
 }
 @-o-keyframes fiveFrame5 {
     0%    {
             font-size: 0em;
+            opacity: 0;
     }
     80%   {
             font-size: 0em;
+            opacity: 0;
     }
-    81%   {
+    80.1%   {
             font-size: inherit;
     }
     100%   {
             font-size: inherit;
+            opacity: 1;
     }
 }
 @keyframes fiveFrame5 {
     0%    {
             font-size: 0em;
+            opacity: 0;
     }
     80%   {
             font-size: 0em;
+            opacity: 0;
     }
-    81%   {
+    80.1%   {
             font-size: inherit;
     }
     100%   {
             font-size: inherit;
+            opacity: 1;
     }
 }
 .fiveFrame5 {
