@@ -27,7 +27,7 @@ body {
 }
 .logo-text strong {
     font-family: 'Candela Bold', sans-serif;
-    font-size: large;
+    font-size: 105%;
 }
 
 header {
@@ -178,8 +178,10 @@ p {
 
 
 
+
+
 #landing-page p {
-    font-size: 3em;
+    font-size: 1.45em;
     line-height: 1;
     text-indent: 0;
     margin: 0;
@@ -192,9 +194,9 @@ p {
 
 #landing-page section {
     height: 100vh;
-    width: 80%;
+    width: 88%;
     margin: 0;
-    padding: 0 10% 5vh;
+    padding: 0 6% 5vh;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -225,8 +227,6 @@ p {
     padding: 0;
     color: #EEE;
 }
-#pitch>section {
-}
 
 
 
@@ -235,7 +235,7 @@ p {
 }
 
 #headline p {
-    margin-bottom: 1.25em;
+    margin-bottom: 0.5em;
 }
 
 #headline u {
@@ -244,8 +244,8 @@ p {
 }
 
 #headline #somethings {
-    font-size: 3em;
-    word-spacing: 1em;
+    font-size: 1.5em;
+    word-spacing: 0.425em;
 }
 
 @-webkit-keyframes somethingsSequence1 {
@@ -330,6 +330,7 @@ p {
 
 
 
+
 #see-do {
     flex-flow: row;
 }
@@ -345,18 +346,17 @@ p {
     flex-flow: row;
     align-items: center;
     justify-content: center;
-    font-size: 3em;
+    font-size: 1.35em;
 }
 #see-do p {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.3em;
+    font-size: 1.25em;
 }
-#see-do i {
-    margin: 0 0.1em;
-}
+
 
 
 #see-do #see {
-    /*margin-bottom: 15vh;*/
+    margin: 0 0.5em 1em 0;
 }
 
 #see-do #see picture {
@@ -364,98 +364,11 @@ p {
 }
 
 
-#see-do>i {
-    margin: auto 0.25em auto 0.1em;
-    font-size: 5em;
-    color: green;
+#see-do .fiveFrames i {
+    margin: 0 0 0 0.15em;
 }
-
-
-#see-do #do {
-    /*margin-top: 40vh;*/
-}
-
-@-webkit-keyframes stretchRight {
-	0% {
-		-webkit-transform: scaleX(0);
-	}
-	30% {
-		-webkit-transform: scaleX(0.3);
-	}
-	40% {
-		-webkit-transform: scaleX(1.02);
-	}
-	60% {
-		-webkit-transform: scaleX(0.98);
-	}
-	80% {
-		-webkit-transform: scaleX(1.01);
-	}
-	100% {
-		-webkit-transform: scaleX(0.98);
-	}				
-	80% {
-		-webkit-transform: scaleX(1.01);
-	}
-	100% {
-		-webkit-transform: scaleX(1);
-	}		
-}
-@keyframes stretchRight {
-	0% {
-		transform: scaleX(0);
-	}
-	30% {
-		transform: scaleX(0.3);
-	}
-	40% {
-		transform: scaleX(1.02);
-	}
-	60% {
-		transform: scaleX(0.98);
-	}
-	80% {
-		transform: scaleX(1.01);
-	}
-	100% {
-		transform: scaleX(0.98);
-	}				
-	80% {
-		transform: scaleX(1.01);
-	}
-	100% {
-		transform: scaleX(1);
-	}							
-}
-.stretchRight{
-    -webkit-animation-name: stretchRight;
-    -moz-animation-name: stretchRight;
-    -o-animation-name: stretchRight;
-    animation-name: stretchRight;
-
-	-webkit-animation-duration: 2.5s;
-	-moz-animation-duration: 2.5s;
-	-o-animation-duration: 2.5s;
-	animation-duration: 2.5s;
-
-    -webkit-animation-delay: 2000ms;
-    -moz-animation-delay: 2000ms;
-    -o-animation-delay: 2000ms;
-    animation-delay: 2000ms;
-
-	-webkit-animation-timing-function: cubic-bezier(1,0,.47,.71);
-	-moz-animation-timing-function: cubic-bezier(1,0,.47,.71);
-	-o-animation-timing-function: cubic-bezier(1,0,.47,.71);
-	animation-timing-function: cubic-bezier(1,0,.47,.71);
-
-	-webkit-transform-origin: 0% 0%; 		
-	transform-origin: 0% 0%;
-	-ms-transform-origin: 0% 0%;
-}
-
-
 #see-do .fiveFrames i:before {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 @-webkit-keyframes fiveFrames {
@@ -1006,6 +919,103 @@ p {
 
 
 
+#see-do>i {
+    display: none;
+    margin: auto 0 auto 0.1em;
+    font-size: 1.6em;
+    color: green;
+}
+
+
+
+#see-do #do {
+    margin: 1em 0 0 0.5em;
+}
+
+#see-do #do-graphics>i {
+    margin: 0 0.15em 0 0;
+}
+
+@-webkit-keyframes stretchRight {
+	0% {
+		-webkit-transform: scaleX(0);
+	}
+	30% {
+		-webkit-transform: scaleX(0.3);
+	}
+	40% {
+		-webkit-transform: scaleX(1.02);
+	}
+	60% {
+		-webkit-transform: scaleX(0.98);
+	}
+	80% {
+		-webkit-transform: scaleX(1.01);
+	}
+	100% {
+		-webkit-transform: scaleX(0.98);
+	}				
+	80% {
+		-webkit-transform: scaleX(1.01);
+	}
+	100% {
+		-webkit-transform: scaleX(1);
+	}		
+}
+@keyframes stretchRight {
+	0% {
+		transform: scaleX(0);
+	}
+	30% {
+		transform: scaleX(0.3);
+	}
+	40% {
+		transform: scaleX(1.02);
+	}
+	60% {
+		transform: scaleX(0.98);
+	}
+	80% {
+		transform: scaleX(1.01);
+	}
+	100% {
+		transform: scaleX(0.98);
+	}				
+	80% {
+		transform: scaleX(1.01);
+	}
+	100% {
+		transform: scaleX(1);
+	}							
+}
+.stretchRight{
+    -webkit-animation-name: stretchRight;
+    -moz-animation-name: stretchRight;
+    -o-animation-name: stretchRight;
+    animation-name: stretchRight;
+
+	-webkit-animation-duration: 2.5s;
+	-moz-animation-duration: 2.5s;
+	-o-animation-duration: 2.5s;
+	animation-duration: 2.5s;
+
+    -webkit-animation-delay: 2000ms;
+    -moz-animation-delay: 2000ms;
+    -o-animation-delay: 2000ms;
+    animation-delay: 2000ms;
+
+	-webkit-animation-timing-function: cubic-bezier(1,0,.47,.71);
+	-moz-animation-timing-function: cubic-bezier(1,0,.47,.71);
+	-o-animation-timing-function: cubic-bezier(1,0,.47,.71);
+	animation-timing-function: cubic-bezier(1,0,.47,.71);
+
+	-webkit-transform-origin: 0% 0%; 		
+	transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+}
+
+
+
 
 
 #landing-page #consult {
@@ -1078,7 +1088,11 @@ p {
     text-shadow: rgb(7, 7, 7) 0px -1px 3px, rgb(7, 7, 7) 0px 1px 3px;
 }
 #close>div>p:first-child {
-    margin-top: 0;
+    margin: 0 auto 0.5em;
+    font-size: 1.6em;
+}
+#close>div>p {
+    margin: 0 auto 0.45em;
 }
 
 
@@ -1104,13 +1118,14 @@ p {
 	background: -ms-radial-gradient(closest-side, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(241,210,194,1) 100%);
 	background: radial-gradient(closest-side, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(241,210,194,1) 100%); 
 	*/
-	background-color: #222;
+	background-color: #333;
 }
 #action #nameplate {
     height: 67vh;
-    width: 80%;
+    width: 88%;
     margin: 0;
-    padding: 0 10%;
+    padding: 0 6%;
+    background-color: #222;
 	background-image: url(http://www.transparenttextures.com/patterns/triangles.png);
     display: -webkit-box;
     display: -moz-box;
@@ -1121,13 +1136,10 @@ p {
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #1c1c1c;
-    font-family: 'Candela Book', 'VAG Rounded', sans-serif;
-    -webkit-box-shadow: 0 10px 10px 5px rgba(0,0,0,0.5);
-    box-shadow: 0 7.5px 10px 10px rgba(34,34,34,0.75);
+    -webkit-box-shadow: 0 7.5px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 7.5px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0 7.5px 10px 0px rgba(34,34,34,0.75);
     z-index: 2;
-}
-#action #nameplate>div {
-    margin: auto;
 }
 #action #nameplate #logo {
     display: -webkit-box;
@@ -1136,20 +1148,22 @@ p {
     display: -webkit-flex;
     display: flex;
     flex-flow: row;
-}
-#action #nameplate .logo-image {
+    -webkit-justify-content: center;
+    justify-content: center;
     margin-left: -0.75em;
 }
 #action #nameplate h1 {
-    font-size: 3em;
+    font-size: 1.3em;
     font-weight: normal;
-    line-height: 2;
-    margin: 0.8em 0 0 -0.2em;
+    /*line-height: 2.25;*/
+    margin: 0.6em 0 0 0.25em;
     color: #EEE;
+    letter-spacing: 0.03em;
 }
 #action strong {
-    font-family: 'Candela Bold', 'VAG Rounded', sans-serif;
-    font-size: 110%;
+    display: block;
+    line-height: 1;
+    letter-spacing: 0;
 }
 
 #nameplate #tagline {
@@ -1159,7 +1173,7 @@ p {
 }
 #nameplate h2 {
     text-align: center;
-    font-size: 2em;
+    font-size: 0.95em;
     line-height: 0.5;
     word-spacing: 0.35em;
     font-weight: normal;
@@ -1222,25 +1236,18 @@ p {
     -o-transition: background-color 500ms linear;
     -ms-transition: background-color 500ms linear;
     transition: background-color 500ms linear;
-    font-size: 2em;
+    font-size: 1.3em;
+    text-align: center;
     text-decoration: none;
-    text-shadow:    hsla(0,0%,10%,0.5) 1px 1px 1px, 
-                    hsla(0,0%,10%,0.5) -1px 1px 1px, 
-                    hsla(0,0%,10%,0.5) 1px -1px 1px, 
-                    hsla(0,0%,10%,0.5) -1px -1px 1px;
+    text-shadow: none;
 }
 #action #links a:hover {
     color: #222;
     text-shadow: none;
 }
 #action #links li {
+    padding: 0 0.4em;
     list-style: none;
-}
-.logo-red-bg-hover {
-    background-color: #999999;
-    background-color: rgb(153, 153, 153);
-    background-color: hsl(343, 0%, 55%);
-    /*background-image: linear-gradient(hsla(343, 1%, 13%, 0.8),hsl(343, 1%, 55%));*/
 }
 .logo-red-bg-hover a {
     color: #EE114F;
@@ -1253,12 +1260,6 @@ p {
     background-color: hsl(343, 87%, 50%);
     background-image: none;
     text-shadow: none;
-}
-.logo-green-bg-hover {
-    background-color: #7A7A7A;
-    background-color: rgb(127,127,127);
-    background-color: hsl(88,0%,48%);
-    /*background-image: linear-gradient(hsla(88, 1%, 13%, 0.8),hsl(88, 1%, 48%));*/
 }
 .logo-green-bg-hover a {
     color: #80CC28;
@@ -1273,7 +1274,8 @@ p {
 }
 #action #links .split {
     height: 16.5vh;
-    font-size: 150%;
+    padding: 0.25em 0;
+    font-size: 115%;
 }
 #action #links .split:hover {
     background-color: #66CACC;
@@ -1285,12 +1287,6 @@ p {
 }
 #action #links .lower {
     justify-content: flex-start;
-}
-.logo-blue-bg-hover {
-    background-color: #999999;
-    background-color: rgb(153,153,153);
-    background-color: hsl(181,0%,60%);
-    /*background-image: linear-gradient(hsla(181, 1%, 13%, 0.8),hsl(181, 1%, 60%));*/
 }
 .logo-blue-bg-hover a {
     color: #66CACC;
@@ -1311,43 +1307,170 @@ p {
 
 
 
-@media (max-width: 1043px) {
-	body {
-		font-size: 90%;
+@media (min-width: 320px) {
+
+	#landing-page {
+		font-size: 130%;
 	}
-	#pitch {
-		padding: 0;
-		width: 100%;
-	}
+
+}
+
+@media (min-width: 430px) {
+
 	p {
 		font-size: 1.5em;
 		margin: .5em 0 0 0;
 	}
-	#nameplate h2 {
-		font-size: auto;
-	}
-}
 
-@media (max-width: 600px) {
-	body {
-		font-size: 80%;
-	}
-	#pitch {
-		padding: 0;
-		width: 100%;
-	}
-	p {
-		font-size: 1.5em;
-		margin: .5em 0 0 0;
-	}
-	#nameplate h2 {
-		font-size: auto;
-	}
-}
+    .logo-text strong {
+        font-size: 100%;
+    }
 
-@media (max-width: 420px) {
+    #landing-page section {
+        width: 80%;
+        padding: 0 10% 5vh;
+    }
+    #landing-page p {
+        font-size: 1.5em;
+    }
+
+    #headline p {
+        margin-bottom: 1em;
+        font-size: 2em;
+    }
     #headline #somethings {
-        font-size: 2.5em;
+        font-size: 2em;
         word-spacing: 0.5em;
     }
+
+
+    #see-do p {
+        margin-bottom: 0.5em;
+    }
+
+    #see-do .fiveFrames i:before {
+        font-size: 1.5em;
+    }
+
+    #see-do #see {
+        margin: 0;
+    }
+
+    #see-do>i {
+        margin: auto 0.25em auto 0.1em;
+    }
+
+    #see-do #see {
+        margin: 0 1em 0 0;
+    }
+
+    #see-do #do {
+        margin: 0 0 0 1em;
+    }
+
+    #see-do #do-graphics>i {
+        font-size: 2em;
+    }
+
+
+    #close>div>p:first-child {
+        font-size: 2em;
+    }
+    #close p {
+        font-size: 1.8em;
+    }
+
+
+
+    #action #nameplate {
+        width: 80%;
+        padding: 0 10%;
+        -webkit-box-shadow: 0 10px 10px 10px rgba(0,0,0,0.5);
+        -moz-box-shadow: 0 10px 10px 10px rgba(0,0,0,0.5);
+        box-shadow: 0 10px 10px 10px rgba(34,34,34,0.75);
+    }
+
+    #action #nameplate #logo {
+        -webkit-justify-content: inherit;
+        justify-content: inherit;
+        margin-left: 0;
+    }
+    #action #nameplate h1 {
+        margin: 0.8em 0 0 -0.2em;
+        font-size: 1.8em;
+        line-height: 2.5;
+        letter-spacing: normal;
+    }
+    #action strong {
+        display: inline;
+        line-height: 2.5;
+        letter-spacing: inherit;
+    }
+
+    #nameplate h2 {
+        font-size: 1.35em;
+    }
+
+    #action #links a {
+        font-size: 1.45em;
+        text-align: center;
+    }
+
+
+    #action #links .split {
+        padding: 0;
+        font-size: 135%;
+    }
+
+}
+
+@media (min-width: 568px) {
+
+    #landing-page {
+        font-size: 140%;
+    }
+
+}
+
+@media (min-width: 600px) {
+
+    #landing-page {
+        font-size: 150%;
+    }
+
+    #nameplate #tagline {
+        margin-top: 0.4em;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    #landing-page {
+        font-size: 160%;
+    }
+
+    #action #nameplate h1 {
+        margin-top: 0.6em;
+    }
+    #nameplate #tagline {
+        margin-top: 0.2em;
+    }
+
+    #action #links a {
+        font-size: 1.3em;
+    }
+
+}
+
+@media (min-width: 932px) {
+
+    #landing-page {
+        font-size: 180%;
+    }
+
+    #see-do>div>div {
+        font-size: 1.5em;
+    }
+
 }
