@@ -1436,12 +1436,23 @@ p {
         font-size: 150%;
     }
 
+    #nameplate #tagline {
+        margin-top: 0.4em;
+    }
+
 }
 
 @media (min-width: 768px) {
 
     #landing-page {
         font-size: 160%;
+    }
+
+    #action #nameplate h1 {
+        margin-top: 0.6em;
+    }
+    #nameplate #tagline {
+        margin-top: 0.2em;
     }
 
     #action #links a {
