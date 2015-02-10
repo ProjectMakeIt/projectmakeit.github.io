@@ -1303,48 +1303,10 @@ p {
 
 
 /* In until linked pages are ready. */
-#action {
-    background-color: #444;
-}
-#action #nameplate {
-    background-color: #222;
-}
-#action #links {
+#action #links div {
     width: 100%;
-    height: 33vh;
-    margin: 0 auto;
 }
-#action #links a {
-    text-indent: 0;
-    line-height: 1.25;
-    background-image:
-        linear-gradient(
-            to right, 
-            hsla(343, 0%, 55%, 0.85),
-            hsla( 88, 0%, 48%, 0.85), 
-            hsla(181, 0%, 60%, 0.85)
-        );
-}
-#action #links a, #action #links a:visited {
-    color: #EFEFFE;
-    text-decoration: none;
-}
-#action #links a:hover, #action #links a:active {
-    background-image:
-        linear-gradient(
-            to right, 
-            hsla(343, 87%, 50%, 0.5),
-            hsla( 88, 67%, 48%, 0.5), 
-            hsla(181, 50%, 60%, 0.5)
-        );
-}
-#action #links a span {
-    border-bottom: 2px dotted white;
-}
-#action #links a:hover span {
-    border-bottom-style: solid;
-}
-#action #links ul {
+#action #links .logo-red-bg-hover, #action #links .logo-green-bg-hover {
     display: none;
 }
 /* In until linked pages are ready. */
