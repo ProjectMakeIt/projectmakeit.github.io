@@ -227,8 +227,6 @@ p {
     padding: 0;
     color: #EEE;
 }
-#pitch>section {
-}
 
 
 
@@ -1289,8 +1287,8 @@ p {
 
 @media (min-width: 320px) {
 
-	body {
-		font-size: 105%;
+	#landing-page {
+		font-size: 130%;
 	}
 
 }
@@ -1303,16 +1301,20 @@ p {
 	}
 
     .logo-text strong {
-        font-size: 110%;
+        font-size: 100%;
     }
 
     #landing-page section {
         width: 80%;
         padding: 0 10% 5vh;
     }
+    #landing-page p {
+        font-size: 1.5em;
+    }
 
     #headline p {
-        margin-bottom: 1.25em;
+        margin-bottom: 1em;
+        font-size: 2em;
     }
     #headline #somethings {
         font-size: 2em;
@@ -1336,12 +1338,24 @@ p {
         margin: auto 0.25em auto 0.1em;
     }
 
+    #see-do #see {
+        margin: 0 1em 0 0;
+    }
+
     #see-do #do {
-        margin: 0;
+        margin: 0 0 0 1em;
     }
 
     #see-do #do-graphics>i {
         font-size: 2em;
+    }
+
+
+    #close>div>p:first-child {
+        font-size: 2em;
+    }
+    #close p {
+        font-size: 1.8em;
     }
 
 
@@ -1361,7 +1375,7 @@ p {
     }
     #action #nameplate h1 {
         margin: 0.8em 0 0 -0.2em;
-        font-size: 2.3em;
+        font-size: 1.8em;
         line-height: 2.5;
         letter-spacing: normal;
     }
@@ -1369,39 +1383,72 @@ p {
         display: inline;
         line-height: 2.5;
         letter-spacing: inherit;
-        font-size: 110%;
     }
 
     #nameplate h2 {
-        font-size: 1.525em;
+        font-size: 1.35em;
     }
 
     #action #links a {
-        font-size: 1.75em;
-        text-align: initial;
+        font-size: 1.45em;
+        text-align: center;
     }
 
 
     #action #links .split {
         padding: 0;
-        font-size: 150%;
+        font-size: 135%;
     }
 
 }
 
-@media (min-width: 1043px) {
+@media (min-width: 568px) {
 
-	p {
-		font-size: 1.5em;
-		margin: .5em 0 0 0;
-	}
+    #landing-page {
+        font-size: 140%;
+    }
 
-	#landing-page {
-		font-size: 120%;
-	}
+}
 
-	#nameplate h2 {
-		font-size: auto;
-	}
+@media (min-width: 600px) {
+
+    #landing-page {
+        font-size: 150%;
+    }
+
+    #nameplate #tagline {
+        margin-top: 0.4em;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    #landing-page {
+        font-size: 160%;
+    }
+
+    #action #nameplate h1 {
+        margin-top: 0.6em;
+    }
+    #nameplate #tagline {
+        margin-top: 0.2em;
+    }
+
+    #action #links a {
+        font-size: 1.3em;
+    }
+
+}
+
+@media (min-width: 932px) {
+
+    #landing-page {
+        font-size: 180%;
+    }
+
+    #see-do>div>div {
+        font-size: 1.5em;
+    }
 
 }
