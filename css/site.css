@@ -1302,6 +1302,17 @@ p {
 
 
 
+/* In until linked pages are ready. */
+#action #links div {
+    width: 100%;
+}
+#action #links .logo-red-bg-hover, #action #links .logo-green-bg-hover {
+    display: none;
+}
+/* In until linked pages are ready. */
+
+
+
 
 
 
