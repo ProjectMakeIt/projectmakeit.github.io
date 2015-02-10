@@ -1219,10 +1219,6 @@ p {
     font-size: 1.3em;
     text-align: center;
     text-decoration: none;
-    text-shadow:    hsla(0,0%,10%,0.5) 1px 1px 1px, 
-                    hsla(0,0%,10%,0.5) -1px 1px 1px, 
-                    hsla(0,0%,10%,0.5) 1px -1px 1px, 
-                    hsla(0,0%,10%,0.5) -1px -1px 1px;
 }
 #action #links a:hover {
     color: #222;
